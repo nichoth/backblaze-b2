@@ -7,6 +7,9 @@ A customizable B2 client for Node.js:
 * Uses [axios](https://github.com/axios/axios). You can control the axios instance at the request level (see `axios` and `axiosOverride` config arguments) and at the global level (see `axios` config argument at instantiation) so you can use any axios feature.
 * Automatically retries on request failure. You can control retry behaviour using the `retries` argument at instantiation.
 
+## fork
+This is a fork of [yakovkhalinsky/backblaze-b2](https://github.com/yakovkhalinsky/backblaze-b2)
+
 ## Usage
 
 This library uses promises, so all actions on a `B2` instance return a promise in the following pattern:
